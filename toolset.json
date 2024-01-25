@@ -1,0 +1,12 @@
+{
+  "apt_packages": [
+    "unzip",
+    "jq"
+  ],
+  "alias": [
+    {
+      "name": "workspace",
+      "command": "cd && cd workspace"
+    }
+  ]
+}
