@@ -1,12 +1,10 @@
 {
   "apt_packages": [
     "unzip",
-    "jq"
+    "jq",
+    "make"
   ],
-  "alias": [
-    {
-      "name": "workspace",
-      "command": "cd && cd workspace"
-    }
-  ]
+  "goenv": {
+    "version": "2.2.11"
+  }
 }
