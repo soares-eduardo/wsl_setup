@@ -12,3 +12,12 @@ for package in $packages; do
 	echo "Installing $package"
 	sudo apt install $package
 done
+
+# Execute installer scripts
+for installer in scripts/installers/*.sh; do
+	bash "$installer"
+done
+
+# Append aliases inside .bashrc file
+cat "alias.txt" >> ~/.bashrc
+source ~/.bashrc
