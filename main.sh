@@ -1,14 +1,10 @@
-get_toolset_value() {
-	echo "$(jq -r "$1" "toolset.json")"
-}
+source scripts/helpers/toolset-scripts.sh
 
 # Create workspace folder
+# cd && mkdir workspace && cd wsl_setup
 
-cd && cd workspace
-
-# Install APT packages
-
-echo "Run apt update"
+# Install APT packages from toolset file
+echo "Running apt update"
 sudo apt update
 
 packages=$(get_toolset_value .apt_packages[])
