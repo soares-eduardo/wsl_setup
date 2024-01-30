@@ -1,6 +1,7 @@
 source $HOME/wsl_setup/scripts/helpers/toolset-scripts.sh
 
 version=$(get_toolset_value .goenv.version)
+default_go_version=$(get_toolset_value .goenv.default_go_version)
 
 git clone --branch $version https://github.com/go-nv/goenv ~/.goenv
 
@@ -12,4 +13,5 @@ echo 'eval "$(goenv init -)"' >> ~/.bashrc
 echo 'export PATH="$GOROOT/bin:$PATH"' >> ~/.bashrc
 echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
 
-exec $SHELL
+goenv install $default_go_version
+goenv global $default_go_version
