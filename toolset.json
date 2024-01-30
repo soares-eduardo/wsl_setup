@@ -6,8 +6,8 @@
     "awscli"
   ],
   "goenv": {
-    "version": "2.2.11",
-    "default_go_version": "1.21.6"
+    "version": "2.1.11",
+    "default_go_version": "1.21"
   },
   "terragrunt": {
     "version": "v0.54.10"
