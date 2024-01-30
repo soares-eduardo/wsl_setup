@@ -2,9 +2,23 @@
   "apt_packages": [
     "unzip",
     "jq",
-    "make"
+    "make",
+    "awscli"
   ],
   "goenv": {
-    "version": "2.2.11"
+    "version": "2.2.11",
+    "default_go_version": "1.21.6"
+  },
+  "terragrunt": {
+    "version": "v0.54.10"
+  },
+  "terraform": {
+    "version": "v1.6.0"
+  },
+  "helm": {
+    "version": "v3.8.2"
+  },
+  "kubectl": {
+    "version": "v1.29.1"
   }
 }
