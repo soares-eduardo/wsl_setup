@@ -1,8 +1,8 @@
 {
   "apt_packages": [
     "unzip",
-    "jq",
     "make",
+    "wget",
     "awscli"
   ],
   "goenv": {

@@ -6,6 +6,7 @@ source scripts/helpers/toolset-scripts.sh
 # Install APT packages from toolset file
 echo "Running apt update"
 sudo apt update
+sudo apt install jq
 
 packages=$(get_toolset_value .apt_packages[])
 for package in $packages; do
