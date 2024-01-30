@@ -7,7 +7,7 @@
   ],
   "goenv": {
     "version": "2.1.11",
-    "default_go_version": "1.21"
+    "default_go_version": "1.21.5"
   },
   "terragrunt": {
     "version": "v0.54.10"
