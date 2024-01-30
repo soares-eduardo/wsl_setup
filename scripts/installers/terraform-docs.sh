@@ -5,4 +5,4 @@ tar -xvf terraform-docs.tar.gz terraform-docs
 chmod +x terraform-docs
 sudo mv terraform-docs /usr/local/bin/terraform-docs
 
-rm terraform-docs.tar.gz
+rm terraform-docs.tar.gz terraform-docs

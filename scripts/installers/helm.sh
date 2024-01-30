@@ -8,4 +8,4 @@ tar -zxvf helm-$version-linux-amd64.tar.gz
 
 sudo mv linux-amd64/helm /usr/local/bin/helm
 
-rm helm-$version-linux-amd64.tar.gz linux-amd64
+rm -r helm-$version-linux-amd64.tar.gz linux-amd64
