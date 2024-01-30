@@ -6,12 +6,12 @@ source scripts/helpers/toolset-scripts.sh
 # Install APT packages from toolset file
 echo "Running apt update"
 sudo apt update
-sudo apt install jq
+sudo apt install -y jq
 
 packages=$(get_toolset_value .apt_packages[])
 for package in $packages; do
 	echo "Installing $package"
-	sudo apt install $package
+	sudo apt install -y $package
 done
 
 # Execute installer scripts
