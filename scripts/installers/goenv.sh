@@ -15,3 +15,5 @@ echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
 
 goenv install $default_go_version
 goenv global $default_go_version
+
+source ~/.bashrc
