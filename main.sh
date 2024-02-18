@@ -21,4 +21,5 @@ done
 
 # Append aliases inside .bashrc file
 cat "alias.txt" >> ~/.bashrc
-source ~/.bashrc
+
+exec $SHELL
