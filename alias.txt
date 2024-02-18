@@ -1,1 +1,1 @@
-workspace='cd && cd workspace'
+alias workspace='cd && cd workspace'
