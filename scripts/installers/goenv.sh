@@ -13,7 +13,7 @@ echo 'eval "$(goenv init -)"' >> ~/.bashrc
 echo 'export PATH="$GOROOT/bin:$PATH"' >> ~/.bashrc
 echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
 
-exec $SHELL
+source ~/.bashrc
 
 goenv install $default_go_version
 goenv global $default_go_version
