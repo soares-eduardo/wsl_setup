@@ -17,5 +17,3 @@ source ~/.bashrc
 
 goenv install $default_go_version
 goenv global $default_go_version
-
-exec $SHELL
