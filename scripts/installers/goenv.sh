@@ -1,5 +1,3 @@
-sudo bash
-
 source $HOME/wsl_setup/scripts/helpers/toolset-scripts.sh
 
 version=$(get_toolset_value .goenv.version)
