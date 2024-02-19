@@ -5,15 +5,14 @@ default_go_version=$(get_toolset_value .goenv.default_go_version)
 
 git clone --branch $version https://github.com/go-nv/goenv ~/.goenv
 
-echo 'export GOENV_ROOT="$HOME/.goenv"' >> ~/.bashrc
-echo 'export PATH="$GOENV_ROOT/bin:$PATH"' >> ~/.bashrc
+# Set up environment variables
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
 
-echo 'eval "$(goenv init -)"' >> ~/.bashrc
+eval "$(goenv init -)"
 
-echo 'export PATH="$GOROOT/bin:$PATH"' >> ~/.bashrc
-echo 'export PATH="$PATH:$GOPATH/bin"' >> ~/.bashrc
-
-source ~/.bashrc
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
 
 goenv install $default_go_version
 goenv global $default_go_version
