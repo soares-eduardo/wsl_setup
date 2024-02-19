@@ -16,7 +16,7 @@ done
 
 # Execute installer scripts
 for installer in scripts/installers/*.sh; do
-	bash "$installer"
+	source "$installer"
 done
 
 # Append aliases inside .bashrc file
