@@ -3,7 +3,8 @@
     "unzip",
     "make",
     "wget",
-    "awscli"
+    "awscli",
+    "shfmt"
   ],
   "goenv": {
     "version": "2.1.11",
