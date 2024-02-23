@@ -12,6 +12,9 @@
   "terraform": {
     "version": "v1.6.0"
   },
+  "terraform_docs": {
+    "version": "v0.17.0"
+  },
   "helm": {
     "version": "v3.8.2"
   },
