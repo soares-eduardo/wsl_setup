@@ -1,4 +1,7 @@
-[ ] - Install Golang
-[ ] - Install Flux CD
-[ ] - Add tests
-[ ] - Create pipeline
+- [ ] Install Golang
+- [ ] Install Flux CD
+- [ ] Install Kind
+- [ ] Add tests
+- [ ] Create pipeline
+- [ ] Evaluate if it's possible moving terraform to apt packages
+- [ ] Fix terraform and kubectl test

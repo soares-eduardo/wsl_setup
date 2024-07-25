@@ -20,5 +20,10 @@
   },
   "kubectl": {
     "version": "v1.29.1"
+  },
+  "golang": {
+    "version": "1.22.5",
+    "arch": "x86-64"
+
   }
 }
