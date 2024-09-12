@@ -1,8 +1,5 @@
 source scripts/helpers/toolset-scripts.sh
 
-# Create workspace folder
-# cd && mkdir workspace && cd wsl_setup
-
 echo "Running apt update"
 sudo apt update
 
@@ -23,5 +20,6 @@ done
 
 # Append aliases inside .bashrc file
 cat "alias.txt" >> ~/.bashrc
+cat ".env" >>  ~/.bashrc
 source ~/.bashrc
 	

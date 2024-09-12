@@ -3,8 +3,8 @@
     "unzip",
     "make",
     "wget",
-    "awscli",
-    "shfmt"
+    "shfmt",
+    "zip"
   ],
   "terragrunt": {
     "version": "v0.54.10"
@@ -23,7 +23,6 @@
   },
   "golang": {
     "version": "1.22.5",
-    "arch": "x86-64"
-
+    "arch": "amd64"
   }
 }
