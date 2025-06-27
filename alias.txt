@@ -1,1 +1,4 @@
 alias workspace='cd && cd workspace'
+alias terragrunt-plan='terragrunt run-all plan --terragrunt-include-external-dependencies'
+alias terragrunt-apply='terragrunt run-all apply --terragrunt-include-external-dependencies'
+alias terragrunt-validate='terragrunt run-all validate --terragrunt-include-external-dependencies'
